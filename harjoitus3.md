@@ -86,6 +86,7 @@ eli tiedostot olivat siinä tilassa, milloin olin ne viime kerran tallentanut.
 #f) Tee uusi salt-moduuli.
 
 Asensin salt-masterin ja salt-minionin samalle koneelle.
+Käytin apuna tätä aiemmin tekemääni ohjetta: https://ellaparviainen.wordpress.com/2020/04/07/palvelinten-hallinta-salt-ja-idempotenssi/
 
     sudo apt-get install salt-master -y
     hostname -I
@@ -144,3 +145,8 @@ pkg.installed toimi, sekä file.managed, mutta service.running kohdalla oli Fals
 En löytänyt tietoa virheilmoituksesta etsinnästä huolimatta.
 
 Lopetin tehtävän klo 16:05. (Kesto 2h 45min)
+
+Lähteet:
+Tero Karvinen 2020 Palvelinten hallinta -luennot
+http://terokarvinen.com/2016/publish-your-project-with-github
+https://ellaparviainen.wordpress.com/2020/04/07/palvelinten-hallinta-salt-ja-idempotenssi/
