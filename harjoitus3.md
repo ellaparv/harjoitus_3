@@ -54,6 +54,14 @@ joka näytti poistetut (-)  ja lisätyt (+) rivit tiedostossa harjoitus3.md.
 
 Viimeisenä
 	git blame
-joka näytti vain mahdollisia vipuja, mitä voi käyttää komennon yhteydessä. Päätin kokeilla
-	git blame --incremental
+joka näytti vain mahdollisia vipuja, mitä voi käyttää komennon yhteydessä.
 Etsin lisää tietoa git blamesta, ja sivulla https://git-scm.com/docs/git-blame kerrottiin, että blame näyttää kuka omistaja on tehnyt minkäkin muutoksen milläkin rivillä. 
+Laitoin komennon
+	git blame harjoitus3.md
+ja nyt näytölle ilmestyi listaus tekemistäni muutoksista kappaleittain:
+
+70cb6b84 (Ella Parviainen 2020-04-19 10:38:38 +0000  1) Tämä on Palvelinten hallinta -kurssin harjoitus numero 3.
+70cb6b84 (Ella Parviainen 2020-04-19 10:38:38 +0000  2) 
+
+#e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset 'git reset -hard'.
+
