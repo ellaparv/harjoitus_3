@@ -137,7 +137,10 @@ startneofetch:
 
 Sitten aktivoin tilan komennolla 
     sudo salt 'ella' state.apply neofetch
-, jolloin hetken odottelun jälkeen tuli näytölle näkyviin tilaan tekemäni muutokset.
+jolloin hetken odottelun jälkeen tuli näytölle näkyviin tilaan tekemäni muutokset.
 
 pkg.installed toimi, sekä file.managed, mutta service.running kohdalla oli False ja teksti "Unit neofetch.service not found".
 
+En löytänyt tietoa virheilmoituksesta etsinnästä huolimatta.
+
+Lopetin tehtävän klo 16:05. (Kesto 2h 45min)
